@@ -1,5 +1,7 @@
 # Two Factor Authentication (2FA)
 
+[![Build Status](https://travis-ci.com/amarlearning/two-factor-auth.svg?token=FhxpAG7TK2kc9cTmNv5p&branch=master)](https://travis-ci.com/amarlearning/two-factor-auth)
+
 CLI tool to generate two-factor authentication (2FA) tokens!
 
 Reference Links:
