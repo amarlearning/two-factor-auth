@@ -28,9 +28,9 @@ def HOTP(secret, counter, digits = 6, digestmod = hashlib.sha1):
 
 		Returns the OATH integer code with {digits} length
 
-		:param {secret} : [String] base32-encoded string acting as secret key.
-		:param {counter}: [Integer] counter number for getting different OATH tokens.
-		:param {digits} : [Integer] response length parameter.
+		:param {secret}   : [String] base32-encoded string acting as secret key.
+		:param {counter}  : [Integer] counter number for getting different OATH tokens.
+		:param {digits}   : [Integer] response length parameter.
 		:param {digestmod}: [Function] method for generating digest
 							default (hashlib.sha1) used in HOTP algorithm.
 	"""
@@ -81,7 +81,7 @@ def truncate(hmac_digest, digits = 6):
 		http://tools.ietf.org/html/rfc4226#section-5.3
 
 		:param {hmac_digest}: OATH code in 20-Byte string format.
-		:param {digits}   : [Integer] response length parameter.
+		:param {digits}     : [Integer] response length parameter.
 	"""
 
 	# convert the text into it's character code
@@ -98,9 +98,9 @@ def truncate(hmac_digest, digits = 6):
 
 		Number info: 0x7fffffff
 
-		Decimal:        2147483647
-		Binary:         1111111111111111111111111111111
-		Hexadecimal:    0x7fffffff
+		Decimal       : 2147483647
+		Binary        : 1111111111111111111111111111111
+		Hexadecimal   : 0x7fffffff
 		Dotted decimal: 127.255.255.255
 
 	"""
