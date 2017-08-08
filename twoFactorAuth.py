@@ -115,7 +115,7 @@ def truncate(hmac_digest, digits=6):
     token = oathcode[0] & 0x7fffffff
 
     # generate the token of {digits} response length
-    print token % (10 ** digits)
+    print str(token)[-digits:]
 
 
 if __name__ == '__main__':
