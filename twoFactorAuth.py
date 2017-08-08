@@ -106,9 +106,9 @@ def truncate(hmac_digest, digits=6):
 
         Number info: 0x7fffffff
 
-        Decimal:        2147483647
-        Binary:         1111111111111111111111111111111
-        Hexadecimal:    0x7fffffff
+        Decimal       : 2147483647
+        Binary        : 1111111111111111111111111111111
+        Hexadecimal   : 0x7fffffff
         Dotted decimal: 127.255.255.255
     """
 
