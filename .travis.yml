@@ -2,4 +2,4 @@ language: python
 python:
   - 2.7
 script:
-  - python twoFactorAuth.py
+  - python twoFactorAuth.py h3nr2nsfytkmhnxz
