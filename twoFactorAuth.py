@@ -13,6 +13,7 @@ import base64
 import hashlib
 import hmac
 import struct
+import sys
 import time
 
 """
@@ -52,7 +53,7 @@ def HOTP(secret, counter, digits=6, digestmod=hashlib.sha1):
     return truncate(hmac_digest, digits=digits)
 
 
-def TOPT(secret='h3nr2nsfytkmhnxz',
+def TOPT(secret,
          clock=None,
          window=30,
          digits=6,
@@ -119,4 +120,4 @@ def truncate(hmac_digest, digits=6):
 
 
 if __name__ == '__main__':
-    TOPT()
+    TOPT(sys.argv[1])
