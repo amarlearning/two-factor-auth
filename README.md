@@ -26,7 +26,6 @@ Example:
   $ python twoFactorAuth.py h3nr2nsfytkmhnxz
 
 ```
-***
 
 ## Issues
 
@@ -36,7 +35,6 @@ You can report the bugs at the [issue tracker](https://github.com/amarlearning/t
 
 You can [tweet me](https://twitter.com/iamarpandey) if you can't get it to work. In fact, you should tweet me anyway.
 
-***
 
 ## License
 
